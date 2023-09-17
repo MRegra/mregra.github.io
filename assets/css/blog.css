@@ -1,0 +1,30 @@
+/* Parent Container */
+
+/* Child Text Container */
+.content_img div{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    font-size: 20px;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+    cursor: pointer;
+}
+
+.content_img:hover div{
+    width: 100%;
+    height: 100%;
+    padding: 115px;
+    visibility: visible;
+    opacity: 0.9; 
+}

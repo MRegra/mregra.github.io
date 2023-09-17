@@ -158,7 +158,6 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	
 	p {
 		margin: 0 0 2em 0;
 	}
@@ -2816,7 +2815,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #163052;
 			color: #c8ece9;
 		}
 
@@ -2849,7 +2848,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 label {
@@ -3560,6 +3559,20 @@ input, select, textarea {
 				opacity: 0;
 			}
 
+	seta {
+				background-image: url("images/arrow.svg");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				bottom: 4em;
+				content: '';
+				display: block;
+				height: 1.5em;
+				left: 50%;
+				margin: 0 0 0 -0.75em;
+				position: absolute;
+				width: 1.5em;
+	}		
 /* Banner */
 
 	#banner {
